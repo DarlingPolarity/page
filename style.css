@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+   
+}
+
+html{
+    min-height: 100%;
+}
+
+body{
+    background: linear-gradient(#fff, #ffd0d8);
+    margin: auto;
+    min-height: 100%;
+}
+
+.main-info{
+    display: flex;
+    margin: 1em;
+    
+}
+
+.Avatar{
+    margin: 1.2em;
+    border-radius: 15px;
+}
+
+.small-info{
+    
+    margin: 10px 10px 35px;
+}
+
+
+.first-row{
+    padding-bottom:15px ;
+}
+
+.first-row h1, p{
+    margin-top: 10px;
+}
+
+.first-row p{
+    padding-left: 5px;
+    border-bottom:1px solid #747474 ;
+    padding-bottom: 2px;
+}
+
+.hobby{
+    padding: 10px 0px 20px 10px;
+    margin: auto;
+}
+
+
+.hobby ul{
+    list-style: none;
+}
+
+.hobby li{
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+
+.description{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+
+.btn-one{
+  display: block;
+  margin: auto;
+  width: 85%;
+  box-sizing: border-box;
+  border: 1px solid #747474;
+  background: #f1f1f1;
+  border-radius: 15px;
+  cursor: pointer;  
+}
+
+.container{
+    background: transparent;
+    border-radius: 25px;
+    margin:0 15%;
+    max-width: 780px;
+}
+
+form{
+    margin: 2.2em;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    /* padding-top: 40px; */
+    
+}
+input,textarea{
+    /* margin-left: 30px; */
+    width: 100%;
+    border:none;
+    background: transparent;
+    border-bottom:1px solid grey;
+    color: #000;
+    outline: none;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.btn-second{
+    display: block;
+  box-sizing: border-box;
+  border: 1px solid #747474;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 5px;
+  background: #f1f1f1;
+}
+
+.contact h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.fast{
+    margin-top: 20px;
+}
+
